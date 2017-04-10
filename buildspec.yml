@@ -10,7 +10,4 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-artifacts:
-  files:
-    - target/aws-code-build-android.jar
   discard-paths: yes
