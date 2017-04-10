@@ -7,10 +7,10 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - ./gradlew --debug --stacktrace build
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/aws-cod
+    - target/aws-code-build-android.jar
+  discard-paths: yes
